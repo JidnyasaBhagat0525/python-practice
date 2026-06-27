@@ -8,7 +8,7 @@ rev = o
    rev = rev * 10 + digit
    num = num // 10
 
-if num == rev:
+if temp == rev:
   print("Palindrome Number")
 else:
   print("Not a Palindrome Number")
