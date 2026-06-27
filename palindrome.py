@@ -6,7 +6,7 @@ rev = o
  while num > 0:
    digit = num % 10
    rev = rev * 10 + digit
-   num = num / 10
+   num = num // 10
 
 if num == rev:
   print("Palindrome Number")
